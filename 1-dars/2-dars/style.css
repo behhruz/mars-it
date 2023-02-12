@@ -1,0 +1,27 @@
+body {
+  background-color: greenyellow;
+}
+.container {
+  position: relative;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  position: absolute;
+  animation-name: Animation;
+  animation-duration: 3s;
+  transition: all 3;
+  animation-direction:alternate;
+}
+
+@keyframes Animation {
+  50% {
+    left: 1000px;
+    transition: all 3s;
+  }
+  100% {
+    /* left: 100px; */
+    transition: all 3s;
+  }
+}
